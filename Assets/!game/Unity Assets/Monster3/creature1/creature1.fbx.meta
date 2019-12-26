@@ -1,0 +1,4270 @@
+fileFormatVersion: 2
+guid: dfa9dd007e9fedc4b869bfd63bb3b284
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: chest
+  - first:
+      1: 100002
+    second: chestcontrol
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: footbase
+  - first:
+      1: 100008
+    second: head
+  - first:
+      1: 100010
+    second: headcontrol
+  - first:
+      1: 100012
+    second: hipcontrol
+  - first:
+      1: 100014
+    second: hips
+  - first:
+      1: 100016
+    second: jaw
+  - first:
+      1: 100018
+    second: Joint_3
+  - first:
+      1: 100020
+    second: Joint_3_2
+  - first:
+      1: 100022
+    second: Joint_3_2_2
+  - first:
+      1: 100024
+    second: Joint_3_2_3
+  - first:
+      1: 100026
+    second: Joint_3_3
+  - first:
+      1: 100028
+    second: Joint_3_3_2
+  - first:
+      1: 100030
+    second: Joint_3_4
+  - first:
+      1: 100032
+    second: Joint_3_4_2
+  - first:
+      1: 100034
+    second: Joint_3_5
+  - first:
+      1: 100036
+    second: Joint_3_5_2
+  - first:
+      1: 100038
+    second: L_ankle
+  - first:
+      1: 100040
+    second: L_ankle_Goal
+  - first:
+      1: 100042
+    second: L_arm
+  - first:
+      1: 100044
+    second: L_arm_Goal
+  - first:
+      1: 100046
+    second: L_arm_Pole
+  - first:
+      1: 100048
+    second: L_elbow
+  - first:
+      1: 100050
+    second: L_eye
+  - first:
+      1: 100052
+    second: L_FOOT
+  - first:
+      1: 100054
+    second: L_foot
+  - first:
+      1: 100056
+    second: L_handconstrain
+  - first:
+      1: 100058
+    second: L_knee
+  - first:
+      1: 100060
+    second: L_leg
+  - first:
+      1: 100062
+    second: L_leg_Pole
+  - first:
+      1: 100064
+    second: L_middle1
+  - first:
+      1: 100066
+    second: L_middle2
+  - first:
+      1: 100068
+    second: L_middle3
+  - first:
+      1: 100070
+    second: L_pink1
+  - first:
+      1: 100072
+    second: L_pink2
+  - first:
+      1: 100074
+    second: L_pink3
+  - first:
+      1: 100076
+    second: L_point1
+  - first:
+      1: 100078
+    second: L_point2
+  - first:
+      1: 100080
+    second: L_point3
+  - first:
+      1: 100082
+    second: L_ring1
+  - first:
+      1: 100084
+    second: L_ring2
+  - first:
+      1: 100086
+    second: L_ring3
+  - first:
+      1: 100088
+    second: L_shoulder
+  - first:
+      1: 100090
+    second: L_thumb1
+  - first:
+      1: 100092
+    second: L_thumb2
+  - first:
+      1: 100094
+    second: L_thumb3
+  - first:
+      1: 100096
+    second: L_toes
+  - first:
+      1: 100098
+    second: L_wrist
+  - first:
+      1: 100100
+    second: L_wrist_Goal
+  - first:
+      1: 100102
+    second: lip
+  - first:
+      1: 100104
+    second: mesh_1
+  - first:
+      1: 100106
+    second: neck
+  - first:
+      1: 100108
+    second: neckcontrol
+  - first:
+      1: 100110
+    second: R_ankle
+  - first:
+      1: 100112
+    second: R_ankle_Goal
+  - first:
+      1: 100114
+    second: R_arm
+  - first:
+      1: 100116
+    second: R_arm_Goal
+  - first:
+      1: 100118
+    second: R_arm_Pole
+  - first:
+      1: 100120
+    second: R_elbow
+  - first:
+      1: 100122
+    second: R_eye
+  - first:
+      1: 100124
+    second: R_FOOT
+  - first:
+      1: 100126
+    second: R_foot
+  - first:
+      1: 100128
+    second: R_handconstrain
+  - first:
+      1: 100130
+    second: R_knee
+  - first:
+      1: 100132
+    second: R_leg
+  - first:
+      1: 100134
+    second: R_leg_Pole
+  - first:
+      1: 100136
+    second: R_middle1
+  - first:
+      1: 100138
+    second: R_middle2
+  - first:
+      1: 100140
+    second: R_middle3
+  - first:
+      1: 100142
+    second: R_pink1
+  - first:
+      1: 100144
+    second: R_pink2
+  - first:
+      1: 100146
+    second: R_pink3
+  - first:
+      1: 100148
+    second: R_point1
+  - first:
+      1: 100150
+    second: R_point2
+  - first:
+      1: 100152
+    second: R_point3
+  - first:
+      1: 100154
+    second: R_ring1
+  - first:
+      1: 100156
+    second: R_ring2
+  - first:
+      1: 100158
+    second: R_ring3
+  - first:
+      1: 100160
+    second: R_shoulder
+  - first:
+      1: 100162
+    second: R_thumb1
+  - first:
+      1: 100164
+    second: R_thumb2
+  - first:
+      1: 100166
+    second: R_thumb3
+  - first:
+      1: 100168
+    second: R_toes
+  - first:
+      1: 100170
+    second: R_wrist
+  - first:
+      1: 100172
+    second: R_wrist_Goal
+  - first:
+      1: 100174
+    second: spine
+  - first:
+      1: 100176
+    second: spinecontrol
+  - first:
+      1: 100178
+    second: tip
+  - first:
+      4: 400000
+    second: chest
+  - first:
+      4: 400002
+    second: chestcontrol
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: footbase
+  - first:
+      4: 400008
+    second: head
+  - first:
+      4: 400010
+    second: headcontrol
+  - first:
+      4: 400012
+    second: hipcontrol
+  - first:
+      4: 400014
+    second: hips
+  - first:
+      4: 400016
+    second: jaw
+  - first:
+      4: 400018
+    second: Joint_3
+  - first:
+      4: 400020
+    second: Joint_3_2
+  - first:
+      4: 400022
+    second: Joint_3_2_2
+  - first:
+      4: 400024
+    second: Joint_3_2_3
+  - first:
+      4: 400026
+    second: Joint_3_3
+  - first:
+      4: 400028
+    second: Joint_3_3_2
+  - first:
+      4: 400030
+    second: Joint_3_4
+  - first:
+      4: 400032
+    second: Joint_3_4_2
+  - first:
+      4: 400034
+    second: Joint_3_5
+  - first:
+      4: 400036
+    second: Joint_3_5_2
+  - first:
+      4: 400038
+    second: L_ankle
+  - first:
+      4: 400040
+    second: L_ankle_Goal
+  - first:
+      4: 400042
+    second: L_arm
+  - first:
+      4: 400044
+    second: L_arm_Goal
+  - first:
+      4: 400046
+    second: L_arm_Pole
+  - first:
+      4: 400048
+    second: L_elbow
+  - first:
+      4: 400050
+    second: L_eye
+  - first:
+      4: 400052
+    second: L_FOOT
+  - first:
+      4: 400054
+    second: L_foot
+  - first:
+      4: 400056
+    second: L_handconstrain
+  - first:
+      4: 400058
+    second: L_knee
+  - first:
+      4: 400060
+    second: L_leg
+  - first:
+      4: 400062
+    second: L_leg_Pole
+  - first:
+      4: 400064
+    second: L_middle1
+  - first:
+      4: 400066
+    second: L_middle2
+  - first:
+      4: 400068
+    second: L_middle3
+  - first:
+      4: 400070
+    second: L_pink1
+  - first:
+      4: 400072
+    second: L_pink2
+  - first:
+      4: 400074
+    second: L_pink3
+  - first:
+      4: 400076
+    second: L_point1
+  - first:
+      4: 400078
+    second: L_point2
+  - first:
+      4: 400080
+    second: L_point3
+  - first:
+      4: 400082
+    second: L_ring1
+  - first:
+      4: 400084
+    second: L_ring2
+  - first:
+      4: 400086
+    second: L_ring3
+  - first:
+      4: 400088
+    second: L_shoulder
+  - first:
+      4: 400090
+    second: L_thumb1
+  - first:
+      4: 400092
+    second: L_thumb2
+  - first:
+      4: 400094
+    second: L_thumb3
+  - first:
+      4: 400096
+    second: L_toes
+  - first:
+      4: 400098
+    second: L_wrist
+  - first:
+      4: 400100
+    second: L_wrist_Goal
+  - first:
+      4: 400102
+    second: lip
+  - first:
+      4: 400104
+    second: mesh_1
+  - first:
+      4: 400106
+    second: neck
+  - first:
+      4: 400108
+    second: neckcontrol
+  - first:
+      4: 400110
+    second: R_ankle
+  - first:
+      4: 400112
+    second: R_ankle_Goal
+  - first:
+      4: 400114
+    second: R_arm
+  - first:
+      4: 400116
+    second: R_arm_Goal
+  - first:
+      4: 400118
+    second: R_arm_Pole
+  - first:
+      4: 400120
+    second: R_elbow
+  - first:
+      4: 400122
+    second: R_eye
+  - first:
+      4: 400124
+    second: R_FOOT
+  - first:
+      4: 400126
+    second: R_foot
+  - first:
+      4: 400128
+    second: R_handconstrain
+  - first:
+      4: 400130
+    second: R_knee
+  - first:
+      4: 400132
+    second: R_leg
+  - first:
+      4: 400134
+    second: R_leg_Pole
+  - first:
+      4: 400136
+    second: R_middle1
+  - first:
+      4: 400138
+    second: R_middle2
+  - first:
+      4: 400140
+    second: R_middle3
+  - first:
+      4: 400142
+    second: R_pink1
+  - first:
+      4: 400144
+    second: R_pink2
+  - first:
+      4: 400146
+    second: R_pink3
+  - first:
+      4: 400148
+    second: R_point1
+  - first:
+      4: 400150
+    second: R_point2
+  - first:
+      4: 400152
+    second: R_point3
+  - first:
+      4: 400154
+    second: R_ring1
+  - first:
+      4: 400156
+    second: R_ring2
+  - first:
+      4: 400158
+    second: R_ring3
+  - first:
+      4: 400160
+    second: R_shoulder
+  - first:
+      4: 400162
+    second: R_thumb1
+  - first:
+      4: 400164
+    second: R_thumb2
+  - first:
+      4: 400166
+    second: R_thumb3
+  - first:
+      4: 400168
+    second: R_toes
+  - first:
+      4: 400170
+    second: R_wrist
+  - first:
+      4: 400172
+    second: R_wrist_Goal
+  - first:
+      4: 400174
+    second: spine
+  - first:
+      4: 400176
+    second: spinecontrol
+  - first:
+      4: 400178
+    second: tip
+  - first:
+      43: 4300000
+    second: mesh_1
+  - first:
+      74: 7400000
+    second: creature1Idle
+  - first:
+      74: 7400002
+    second: creature1walkforward
+  - first:
+      74: 7400004
+    second: creature1walkright
+  - first:
+      74: 7400006
+    second: creature1walkleft
+  - first:
+      74: 7400008
+    second: creature1walkback
+  - first:
+      74: 7400010
+    second: creature1run
+  - first:
+      74: 7400012
+    second: creature1jump
+  - first:
+      74: 7400014
+    second: creature1InAir
+  - first:
+      74: 7400016
+    second: creature1Land
+  - first:
+      74: 7400018
+    second: creature1roar
+  - first:
+      74: 7400020
+    second: creature1Taunt
+  - first:
+      74: 7400022
+    second: creature1Attack1
+  - first:
+      74: 7400024
+    second: creature1Attack3
+  - first:
+      74: 7400026
+    second: creature1Attack2
+  - first:
+      74: 7400028
+    second: creature1GetHit
+  - first:
+      74: 7400030
+    second: creature1Die
+  - first:
+      74: 7400032
+    second: creature1Spawn
+  - first:
+      74: 7400034
+    second: allAnimations
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: mesh_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 018ae001684c7a048b29b33d0c89a449, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: creature1Idle
+      takeName: Main
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1walkforward
+      takeName: Main
+      internalID: 0
+      firstFrame: 61
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1walkright
+      takeName: Main
+      internalID: 0
+      firstFrame: 92
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1walkleft
+      takeName: Main
+      internalID: 0
+      firstFrame: 123
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1walkback
+      takeName: Main
+      internalID: 0
+      firstFrame: 154
+      lastFrame: 182
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1run
+      takeName: Main
+      internalID: 0
+      firstFrame: 185
+      lastFrame: 213
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1jump
+      takeName: Main
+      internalID: 0
+      firstFrame: 215
+      lastFrame: 221
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1InAir
+      takeName: Main
+      internalID: 0
+      firstFrame: 221
+      lastFrame: 238
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Land
+      takeName: Main
+      internalID: 0
+      firstFrame: 239
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1roar
+      takeName: Main
+      internalID: 0
+      firstFrame: 250
+      lastFrame: 297
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Taunt
+      takeName: Main
+      internalID: 0
+      firstFrame: 297
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Attack1
+      takeName: Main
+      internalID: 0
+      firstFrame: 330
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.32203344
+        functionName: ActivateWrist
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4279657
+        functionName: DeactivateWrist
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Attack2
+      takeName: Main
+      internalID: 0
+      firstFrame: 355
+      lastFrame: 396
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Attack3
+      takeName: Main
+      internalID: 0
+      firstFrame: 396
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1GetHit
+      takeName: Main
+      internalID: 0
+      firstFrame: 420
+      lastFrame: 437
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Die
+      takeName: Main
+      internalID: 0
+      firstFrame: 437
+      lastFrame: 464
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: creature1Spawn
+      takeName: Main
+      internalID: 0
+      firstFrame: 468
+      lastFrame: 520
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: footbase
+        weight: 1
+      - path: footbase/L_FOOT
+        weight: 1
+      - path: footbase/L_FOOT/L_ankle_Goal
+        weight: 1
+      - path: footbase/L_leg_Pole
+        weight: 1
+      - path: footbase/R_FOOT
+        weight: 1
+      - path: footbase/R_FOOT/R_ankle_Goal
+        weight: 1
+      - path: footbase/R_leg_Pole
+        weight: 1
+      - path: hipcontrol
+        weight: 1
+      - path: hipcontrol/headcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/L_arm_Goal/L_wrist_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/neckcontrol
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_arm_Pole
+        weight: 1
+      - path: hipcontrol/spinecontrol/chestcontrol/R_arm_Goal/R_wrist_Goal
+        weight: 1
+      - path: hips
+        weight: 1
+      - path: hips/L_leg
+        weight: 1
+      - path: hips/L_leg/L_knee
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: hips/L_leg/L_knee/L_ankle/L_foot/L_toes
+        weight: 1
+      - path: hips/R_leg
+        weight: 1
+      - path: hips/R_leg/R_knee
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: hips/R_leg/R_knee/R_ankle/R_foot/R_toes
+        weight: 1
+      - path: hips/spine
+        weight: 1
+      - path: hips/spine/chest
+        weight: 1
+      - path: hips/spine/chest/L_shoulder
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_middle1/L_middle2/L_middle3/Joint_3_4
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_pink1/L_pink2/L_pink3/Joint_3_2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_point1/L_point2/L_point3/Joint_3_5
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_ring1/L_ring2/L_ring3/Joint_3_3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3
+        weight: 1
+      - path: hips/spine/chest/L_shoulder/L_arm/L_elbow/L_wrist/L_thumb1/L_thumb2/L_thumb3/Joint_3
+        weight: 1
+      - path: hips/spine/chest/neck
+        weight: 1
+      - path: hips/spine/chest/neck/head
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: hips/spine/chest/neck/head/jaw/lip
+        weight: 1
+      - path: hips/spine/chest/neck/head/L_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/R_eye
+        weight: 1
+      - path: hips/spine/chest/neck/head/tip
+        weight: 1
+      - path: hips/spine/chest/R_shoulder
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_middle1/R_middle2/R_middle3/Joint_3_4_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_pink1/R_pink2/R_pink3/Joint_3_2_3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_point1/R_point2/R_point3/Joint_3_5_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_ring1/R_ring2/R_ring3/Joint_3_3_2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3
+        weight: 1
+      - path: hips/spine/chest/R_shoulder/R_arm/R_elbow/R_wrist/R_thumb1/R_thumb2/R_thumb3/Joint_3_2_2
+        weight: 1
+      - path: L_handconstrain
+        weight: 1
+      - path: mesh_1
+        weight: 1
+      - path: R_handconstrain
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

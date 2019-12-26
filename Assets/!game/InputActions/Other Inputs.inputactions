@@ -1,0 +1,60 @@
+{
+    "name": "Other Inputs",
+    "maps": [
+        {
+            "name": "OtherControls",
+            "id": "100a1cf8-9f36-4a8a-9985-ae963a520914",
+            "actions": [
+                {
+                    "name": "CursorLock",
+                    "type": "Value",
+                    "id": "98689bbb-67a1-4bb5-8fee-47dc0d107010",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9f53e385-1338-4e82-ad30-3f0b12994fe1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CursorLock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GunControls",
+            "id": "2d8259a8-94e8-4f6f-8528-0ed55ab77976",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Value",
+                    "id": "48d909ee-4ffa-4392-a9e2-02031d4cf283",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6a5654a0-d6c2-4115-9ab4-6f84ae6a1eb6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

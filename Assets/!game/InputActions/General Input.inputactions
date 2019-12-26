@@ -1,0 +1,180 @@
+{
+    "name": "General Input",
+    "maps": [
+        {
+            "name": "BasicFPController",
+            "id": "79b660a8-fe67-4816-9c1d-4e02495cf2a5",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "1991957b-3908-4db3-9de8-3a148ec76b93",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseX",
+                    "type": "Button",
+                    "id": "6578530d-f4fe-4548-8fce-e0bc8bc58f8c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseY",
+                    "type": "Button",
+                    "id": "544c2800-9150-468e-a8c1-a8a290f38dcd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "f0cea038-c8cd-47c2-acd1-0c48d7e9aadf",
+                    "path": "2DVector",
+                    "interactions": "Press,Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "52bfb83b-312a-4098-8789-b29450ecfd56",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b411e344-a00c-4626-8d17-594df4bd5915",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "8d60a035-5a76-4104-b846-66ea2758ac9c",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b189a76a-107e-4a6f-8767-fc5f1ebe7ba5",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "b9b8de88-022e-4e3c-addf-a05b2094a36a",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5183122b-d965-483b-be94-b6692cccf689",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ClassicFPController",
+            "id": "9e35f9b6-bf86-4294-a80d-2e9f6651e574",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "8d567f5a-5d65-4789-90e6-02bff84cbd6b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Crouch",
+                    "type": "Value",
+                    "id": "228d79dc-6de1-4cd8-a6da-792a9f90daed",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Run",
+                    "type": "Value",
+                    "id": "523f1fcc-df7a-4c0f-8c58-bb146dc3e7e0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a61e4e20-b0b6-497d-97aa-6375313a813c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee7e1dc0-8df9-4a6e-86b3-e32115f446e3",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0de81b88-8aa4-42e2-8a04-631513fe8762",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
